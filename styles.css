@@ -1,0 +1,83 @@
+body {
+    background-color: #fdedec;
+}
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #d98880;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #e6b0aa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #cd6155;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    border-bottom: 2px solid #cd6155;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+footer {
+    background-color: #e6b0aa ;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+.image-container,
+.image-gallery img {
+    width: 200px;
+    height: 200px; /
+    object-fit: cover; /
+    border: 2px solid #ddd;
+    margin: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+.image-container:hover img,
+.image-gallery img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
